@@ -1,5 +1,4 @@
 let arr = [2, 9, -2, 6, -4, 8, -3, 3];
-
 function sumOfPositiveNumbers(arr) {
     let sum = 0;
     for (let i = 0; i < arr.length; i++) {
@@ -9,5 +8,4 @@ function sumOfPositiveNumbers(arr) {
     }
     return sum;
 }
-
-console.log(sumOfPositiveNumbers(arr));  // Output should be 28
+console.log(sumOfPositiveNumbers(arr));  
